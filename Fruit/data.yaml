@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Bad_Apple', 'Bad_Guava', 'Bad_Mango', 'Bad_Orange', 'Good_Apple', 'Good_Guava', 'Good_Mango', 'Good_Orange']
+
+roboflow:
+  workspace: university-of-kerala-qqra1
+  project: fruit-ann
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-kerala-qqra1/fruit-ann/dataset/7
